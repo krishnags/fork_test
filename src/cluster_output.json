@@ -1,0 +1,35 @@
+{
+    "records": [
+        {
+            "destination_cluster": "cluster2",
+            "destination_path": "/vol/vol1",
+            "destination_volume": "vol1",
+            "destination_vserver": "svm2",
+            "healthy": "True",
+            "lag_time": "0",
+            "migration_status": "completed",
+            "relationship_id": "1",
+            "source_cluster": "cluster1",
+            "source_path": "/vol/vol1",
+            "source_volume": "vol1",
+            "source_vserver": "svm1",
+            "state": "started",
+            "status": "healthy",
+            "type": "data"
+        },
+        {
+            "destination_cluster": "cluster1",
+            "destination_path": "/vol/vol2",
+            "destination_volume": "vol2",
+            "destination_vserver": "svm1",
+            "healthy": "True",
+            "lag_time": "0",
+            "migration_status": "completed",
+            "relationship_id": "2",
+            "source_cluster": "cluster2",
+            "source_path": "/vol/vol2",
+            "source_volume": "vol3"
+            }        
+    ]
+}
+    
