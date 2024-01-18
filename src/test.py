@@ -12,13 +12,13 @@ file_path = "src/cluster_output.json"
 
 engine = create_engine(config.DATABASE_URI)
 
-def read_json_file(file_path):
-    """
-    """
-    import json
-    with open(file_path, "r") as f:
-        data = json.load(f)
-    return data
+# def read_json_file(file_path):
+#     """
+#     """
+#     import json
+#     with open(file_path, "r") as f:
+#         data = json.load(f)
+#     return data
 
 if __name__ == "__main__":
     db_functions.create_table(db_table.Base)
